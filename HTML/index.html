@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<!-- Template Name: fanfolio - Frontend | Build with Twitter Bootstrap 3.x | Author: ClipTheme -->
+<!--[if IE 8]><html class="ie8" lang="en"><![endif]-->
+<!--[if IE 9]><html class="ie9" lang="en"><![endif]-->
+<html lang="en">
+	<!-- start: HEAD -->
+	<head>
+		<title>fanfolio</title>
+		<!-- start: META -->
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta content="" name="description" />
+		<meta content="" name="author" />
+		<!-- end: META -->
+		<!-- start: MAIN CSS -->
+		<link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" media="screen">
+		<link href="../bower_components/themify-icons/themify-icons.css" rel="stylesheet" media="screen">
+		<link href="../bower_components/animate.css/animate.min.css" rel="stylesheet" media="screen">
+		<link href="../bower_components/slick.js/slick/slick.css" rel="stylesheet" media="screen" />
+		<link href="../bower_components/slick.js/slick/slick-theme.css" rel="stylesheet" media="screen" />
+		<link href="../bower_components/swiper/dist/css/swiper.min.css" rel="stylesheet" media="screen" />
+		<link href="../bower_components/magnific-popup/dist/magnific-popup.css" rel="stylesheet" media="screen" />
+		<link href="assets/css/styles.css" rel="stylesheet" media="screen">
+		<link href="assets/css/plugins.css" rel="stylesheet" media="screen">
+		<!-- end: MAIN CSS -->
+		<!-- start: FAVICON -->
+		<link rel="shortcut icon" href="favicon.ico" />
+		<!-- end: FAVICON -->
+	</head>
+	<!-- end: HEAD -->
+	<body>
+		<div id="app">
+			<!-- start: HEADER -->
+			<header>
+				<div class="navbar navbar-default" role="navigation">
+					<!-- start: TOP NAVIGATION CONTAINER -->
+					<div class="container">
+						<div class="navbar-header">
+							<!-- start: RESPONSIVE MENU TOGGLER -->
+							<a class="pull-left menu-toggler hidden-md hidden-lg mobile-button" id="menu-toggler" data-toggle="collapse" href=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <i class="ti-align-justify"></i> </a>
+							<!-- end: RESPONSIVE MENU TOGGLER -->
+							<!-- start: RESPONSIVE MENU SEARCH -->
+							<a class="pull-right hidden-md hidden-lg margin-right-20 mobile-button mobile-menu-search" href="#"> <span class="sr-only">Search Button</span> <i class="ti-search"></i> </a>
+							<!-- end: RESPONSIVE MENU SEARCH -->
+							<!-- start: LOGO -->
+							<a href="index.html" class="navbar-brand"> <img height="90" width="200" src="assets/images/fanfolio_white_logo.svg" alt="fanfolio"> </a>
+							<!-- end: LOGO -->
+						</div>
+						<!-- start: NAVBAR -->
+						<div class="navbar-collapse collapse">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="active">
+									<a href="index.html"> Home </a>
+								</li>
+								<li class="dropdown">
+									<a data-toggle="dropdown" href="#" class="dropdown-toggle"> Pages </a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="pages_about_company.html"> About Our Company </a>
+										</li>
+										<li>
+											<a href="pages_about.html"> About Us </a>
+										</li>
+										<li>
+											<a href="pages_team.html"> Team </a>
+										</li>
+										<li>
+											<a href="pages_services.html"> Services </a>
+										</li>
+										<li>
+											<a href="pages_careers.html"> Careers </a>
+										</li>
+										<li>
+											<a href="pages_faq.html"> Faq </a>
+										</li>
+										<li>
+											<a href="pages_contact.html"> Contact Us </a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a data-toggle="dropdown" href="#" class="dropdown-toggle"> Blog </a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="blog_page.html"> Default Blog Page</a>
+										</li>
+										<li>
+											<a href="blog_page_left_sidebar.html"> Left Sidebar Blog Page</a>
+										</li>
+										<li>
+											<a href="blog_page_small_images.html">Blog Page with Small Images</a>
+										</li>
+										<li>
+											<a href="blog_post.html"> Blog Post </a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="http://localhost:8088/app/#!/login/signin"> Sign-In </a>
+								</li>
+								<li class="menu-search hidden-sm hidden-xs">
+									<!-- start: SEARCH BUTTON -->
+									<a href="#"> <i class="ti-search"></i> </a>
+									<!-- end: SEARCH BUTTON -->
+								</li>
+							</ul>
+							<!-- start: MENU TOGGLER FOR MOBILE DEVICES -->
+							<div class="close-handle visible-sm-block visible-xs-block menu-toggler" data-toggle="collapse" href=".navbar-collapse">
+								<div class="arrow-left"></div>
+								<div class="arrow-right"></div>
+							</div>
+							<!-- end: MENU TOGGLER FOR MOBILE DEVICES -->
+						</div>
+						<!-- end: NAVBAR -->
+					</div>
+					<!-- end: TOP NAVIGATION CONTAINER -->
+					<div id="overlay-search">
+						<form method="get" action="search.html">
+							<input type="text" placeholder="Type &amp; Hit Enter.." value="" class="form-control" name="q">
+						</form>
+						<a href="#" class="pull-right margin-right-20 close-search mobile-button" data-toggle-target="body" data-toggle-class="search-open"> <i class="ti-close"></i> </a>
+					</div>
+				</div>
+			</header>
+			<!-- end: HEADER -->
+			<!-- start: HOME MAIN SLIDER -->
+			<div id="main-slider" class="swiper-slider swiper-container full-height slider-parallax">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" style="background-image: url('assets/images/football-stance.jpeg');">
+						<div class="slider-caption caption-centered">
+							<h2 class="text-white opacity-0" data-caption-class="fadeInUp" data-caption-delay="300">Build a top portfolio</h2>
+							<p class="text-white text-extra-large margin-top-15 opacity-0" data-caption-class="fadeInDown" data-caption-delay="300">
+								<b>Don't just watch the game, invest in it</b>
+							</p>
+
+							<button type="button" class="btn btn-primary margin-top-15 opacity-0 btn-wide btn-scroll btn-scroll-top fa-arrow-right" data-caption-class="fadeIn" data-caption-delay="900">
+								<span>Play Now</span>
+							</button>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="slider-caption caption-centered">
+							<h2 class="text-white opacity-0" data-caption-class="fadeInUp" data-caption-delay="300">Build a beautiful website for your business</h2>
+							<p class="text-white text-extra-large margin-top-15 opacity-0" data-caption-class="fadeInDown" data-caption-delay="300">
+								Add the content and we'll do the rest to get you a great page rank
+							</p>
+							<button type="button" class="btn btn-primary margin-top-15 opacity-0 btn-wide btn-scroll btn-scroll-top fa-arrow-right" data-caption-class="fadeIn" data-caption-delay="900">
+								<span>see more</span>
+							</button>
+						</div>
+						<div class="grid-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
+					</div>
+					<div class="swiper-slide" style="background-image: url('assets/images/slider/home-slide2.jpg');">
+						<div class="slider-caption caption-centered">
+							<h2 class="text-white opacity-0" data-caption-class="fadeInUp" data-caption-delay="300">Build a beautiful website for your business</h2>
+							<p class="text-white text-extra-large margin-top-15 opacity-0" data-caption-class="fadeInDown" data-caption-delay="300">
+								Add the content and we'll do the rest to get you a great page rank
+							</p>
+
+							<button type="button" class="btn btn-primary margin-top-15 opacity-0 btn-wide btn-scroll btn-scroll-top fa-arrow-right" data-caption-class="fadeIn" data-caption-delay="900">
+								<span>see more</span>
+							</button>
+						</div>
+					</div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+			<!-- end: HOME MAIN SLIDER -->
+			<!-- start: APP CONTENT -->
+			<div class="app-content">
+				<div class="main-content">
+					<!-- start: SECTION MAIN LINKS -->
+					<section class="container-fluid container-fullw bg-white">
+						<div class="container">
+							<div class="row">
+								<div data-appears-group-delay="0" data-appears-delay-increase="300">
+									<div class="col-sm-4">
+										<div class="panel panel-white no-radius text-center no-visible" data-appears-class="fadeIn">
+											<div class="panel-body">
+												<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i> </span>
+												<h2 class="StepTitle">Create an Account</h2>
+												<p class="text-small">
+													Sign up now to start buying and trading
+												</p>
+												<p class="links cl-effect-1">
+													<a href> sign up </a>
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="panel panel-white no-radius text-center no-visible" data-appears-class="fadeIn">
+											<div class="panel-body">
+												<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-paperclip fa-stack-1x fa-inverse"></i> </span>
+												<h2 class="StepTitle">Build A Portfolio</h2>
+												<p class="text-small">
+													Watch the games and watch your returns
+												</p>
+												<p class="cl-effect-1">
+													<a href> learn more </a>
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="panel panel-white no-radius text-center no-visible" data-appears-class="fadeIn">
+											<div class="panel-body">
+												<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-users fa-stack-1x fa-inverse"></i> </span>
+												<h2 class="StepTitle">Compete Against Friends</h2>
+												<p class="text-small">
+													Form custom leagues with friends for ultimate bragging rights
+												</p>
+												<p class="links cl-effect-1">
+													<a href> learn more </a>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- end: SECTION MAIN LINKS -->
+					<!-- start: SECTION PORTFOLIO -->
+					<section class="container-fluid container-fullw">
+						<div class="row">
+							<div class="col-md-12">
+								<h2 class="center no-visible" data-appears-class="fadeInUp" data-appears-delay="300">Manage Your Portfolio</h2>
+								<hr>
+								<p class="text-center no-visible" data-appears-class="fadeInDown" data-appears-delay="300">
+									Nulla consequat massa quis enim. <strong>Donec pede justo</strong> fringilla vel, aliquet nec, vulputate eget, arcu.
+									<br>
+									In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+								</p>
+								<div class="row">
+									<div data-appears-group-delay="0" data-appears-delay-increase="300" id="portfolio">
+										<div class="no-visible" data-appears-class="fadeIn">
+											<div class="figure-wrapper">
+												<figure class="effect-zoe">
+													<img alt="" src="assets/images/Portfolio.png" class="img-responsive">
+													<figcaption>
+														<h2>Your <span>Portfolio</span></h2>
+														<p class="icon-links">
+															<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-plus fa-stack-1x fa-inverse text-small"></i> </span></a>
+															<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-ellipsis-h fa-stack-1x fa-inverse text-small"></i> </span></a>
+														</p>
+														<p class="description">
+															Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intellegebat, liber regione eu sit.
+														</p>
+													</figcaption>
+												</figure>
+											</div>
+										</div>
+										<div class="no-visible" data-appears-class="fadeIn">
+											<div class="figure-wrapper">
+												<figure class="effect-zoe">
+													<img alt="" src="assets/images/Receivers.png" class="img-responsive">
+													<figcaption>
+														<h2>Available <span>Players</span></h2>
+														<p class="icon-links">
+															<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-plus fa-stack-1x fa-inverse text-small"></i> </span></a>
+															<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-ellipsis-h fa-stack-1x fa-inverse text-small"></i> </span></a>
+														</p>
+														<p class="description">
+															Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intellegebat, liber regione eu sit.
+														</p>
+													</figcaption>
+												</figure>
+											</div>
+										</div>
+										<div class="no-visible" data-appears-class="fadeIn">
+											<div class="figure-wrapper">
+												<figure class="effect-zoe">
+													<img alt="" src="assets/images/Leaderboard.png" class="img-responsive">
+													<figcaption>
+														<h2>Leaderboard</h2>
+														<p class="icon-links">
+															<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-plus fa-stack-1x fa-inverse text-small"></i> </span></a>
+															<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-ellipsis-h fa-stack-1x fa-inverse text-small"></i> </span></a>
+														</p>
+														<p class="description">
+															Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intellegebat, liber regione eu sit.
+														</p>
+													</figcaption>
+												</figure>
+											</div>
+										</div>
+										<div class="no-visible" data-appears-class="fadeIn">
+											<div class="figure-wrapper">
+												<figure class="effect-zoe">
+													<img alt="" src="assets/images/portfolio/image04_th.jpg" class="img-responsive">
+													<figcaption>
+														<h2>Portfolio <span>Item 4</span></h2>
+														<p class="icon-links">
+															<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-plus fa-stack-1x fa-inverse text-small"></i> </span></a>
+															<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-ellipsis-h fa-stack-1x fa-inverse text-small"></i> </span></a>
+														</p>
+														<p class="description">
+															Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intellegebat, liber regione eu sit.
+														</p>
+													</figcaption>
+												</figure>
+											</div>
+										</div>
+										<div class="no-visible" data-appears-class="fadeIn">
+											<div class="figure-wrapper">
+												<figure class="effect-zoe">
+													<img alt="" src="assets/images/portfolio/image05_th.jpg" class="img-responsive">
+													<figcaption>
+														<h2>Portfolio <span>Item 5</span></h2>
+														<p class="icon-links">
+															<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-plus fa-stack-1x fa-inverse text-small"></i> </span></a>
+															<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-ellipsis-h fa-stack-1x fa-inverse text-small"></i> </span></a>
+														</p>
+														<p class="description">
+															Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intellegebat, liber regione eu sit.
+														</p>
+													</figcaption>
+												</figure>
+											</div>
+										</div>
+										<div class="no-visible" data-appears-class="fadeIn">
+											<div class="figure-wrapper">
+												<figure class="effect-zoe">
+													<img alt="" src="assets/images/portfolio/image06_th.jpg" class="img-responsive">
+													<figcaption>
+														<h2>Portfolio <span>Item 6</span></h2>
+														<p class="icon-links">
+															<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-plus fa-stack-1x fa-inverse text-small"></i> </span></a>
+															<a href="#"><span class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-ellipsis-h fa-stack-1x fa-inverse text-small"></i> </span></a>
+														</p>
+														<p class="description">
+															Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intellegebat, liber regione eu sit.
+														</p>
+													</figcaption>
+												</figure>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- end: SECTION PORTFOLIO -->
+					<!-- start: SECTION RESPONSIVE DESIGN -->
+					<section class="container-fluid container-fullw bg-white">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-4 text-center">
+									<img class="img-responsive inline no-visible" src="assets/images/iphone.png" data-appears-class="fadeInLeft" data-appears-delay="300">
+								</div>
+								<div class="col-sm-8">
+									<h2 class="margin-top-30">Play on the Go</h2>
+									<hr class="fade-right">
+									<p>
+										Lid est laborum dolo rumes fugats untras. Etha rums ser quidem rerum facilis dolores nemis onis fugats vitaes nemo minima rerums unsers sadips amets.
+									</p>
+									<p>
+										Ut enim ad minim veniam, quis nostrud Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci amets uns.
+									</p>
+									<p>
+										Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips ameet quasi architecto beatae vitae dicta sunt explicabo.
+									</p>
+									<hr class="fade-right">
+									<button type="button" class="btn btn-primary btn-wide btn-scroll btn-scroll-top fa-arrow-right">
+										<span>Learn more...</span>
+									</button>
+
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- end: SECTION RESPONSIVE DESIGN -->
+					<!-- start: SECTION NUMBERS -->
+					<section class="container-fluid container-fullw" data-stellar-background-ratio="0.5" style="background-image: url('assets/images/home-background.jpg');">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-3 col-sm-6">
+									<div class="padding-40 text-center">
+										<i class="fa fa-code fa-4x text-primary"></i>
+										<span class="block counter text-white" id="counter">8522</span>
+										<hr class="white-hr" />
+										<p class="block text-light">
+											TRADES TODAY
+										</p>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="padding-40 text-center">
+										<i class="fa fa-folder-open fa-4x text-primary"></i>
+										<span class="block counter text-white">532</span>
+										<hr class="white-hr" />
+										<p class="block text-light">
+											ANNUAL TOURNAMENTS
+										</p>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="padding-40 text-center">
+										<i class="fa fa-line-chart fa-4x text-primary"></i>
+										<div class="block">
+											<span class="counter text-white">118</span>
+											<span class="counter-symbol text-white">%</span>
+										</div>
+										<hr class="white-hr" />
+										<p class="block text-light">
+											AVERAGE RETURN
+										</p>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div class="padding-40 text-center">
+										<i class="fa fa-child fa-4x text-primary"></i>
+										<span class="block counter text-white">4832</span>
+										<hr class="white-hr" />
+										<p class="block text-light">
+											SATISFIED CUSTOMERS
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- end: SECTION NUMBERS -->
+					<!-- start: SECTION "THEY SAY" -->
+					<section class="container-fluid container-fullw bg-white">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<h2 class="center" data-appears-class="fadeInDown" data-appears-delay="300">THEY SAY</h2>
+									<hr>
+									<div id="testimonial" data-appears-group-delay="0" data-appears-delay-increase="100">
+										<div class="padding-left-50 padding-right-50">
+											<div class="testimonial-container center">
+												<img src="assets/images/team-1.jpg" class="img-circle testimonial-thumb no-visible" alt="" data-appears-class="flipInY" data-appears-delay="0" />
+												<p class="testimonial_author no-visible" data-appears-class="fadeInDown" data-appears-delay="100">
+													James Hinckley
+												</p>
+												<h4 class="testimonial-text no-visible" data-appears-class="fadeInUp" data-appears-delay="100">Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intellegebat, liber regione eu sit. Mea cu case ludus integre, vide viderer eleifend ex mea. His ay diceret, cum et atqui placerat.</h4>
+
+											</div>
+										</div>
+										<div class="padding-left-50 padding-right-50">
+											<div class="testimonial-container center">
+												<img src="assets/images/team-2.jpg" class="img-circle testimonial-thumb no-visible" alt="" data-appears-class="flipInY" data-appears-delay="0" />
+												<p class="testimonial_author no-visible" data-appears-class="fadeInDown" data-appears-delay="100">
+													Ryan Fraser
+												</p>
+												<h4 class="testimonial-text no-visible" data-appears-class="fadeInUp" data-appears-delay="100">Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intellegebat, liber regione eu sit. Mea cu case ludus integre, vide viderer eleifend ex mea. His ay diceret, cum et atqui placerat.</h4>
+
+											</div>
+										</div>
+										<div class="padding-left-50 padding-right-50">
+											<div class="testimonial-container center">
+												<img src="assets/images/team-3.jpg" class="img-circle testimonial-thumb no-visible" alt="" data-appears-class="flipInY" data-appears-delay="0" />
+												<p class="testimonial_author no-visible" data-appears-class="fadeInDown" data-appears-delay="100">
+													Anna McKeon
+												</p>
+												<h4 class="testimonial-text no-visible" data-appears-class="fadeInUp" data-appears-delay="100">Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intellegebat, liber regione eu sit. Mea cu case ludus integre, vide viderer eleifend ex mea. His ay diceret, cum et atqui placerat.</h4>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- end: SECTION "THEY SAY" -->
+				</div>
+				<!-- start: FOOTER -->
+				<footer id="footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3 padding-bottom-25">
+								<h4 class="margin-bottom-25">Latest Tweet</h4>
+								<div class="twitter margin-bottom-15" id="tweet">
+									<i class="fa fa-twitter pull-left"></i>
+									<p class="padding-left-30">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat.
+										<a href="#" class="time"> 12 Dec </a>
+									</p>
+								</div>
+								<div class="twitter margin-bottom-15" id="tweet">
+									<i class="fa fa-twitter pull-left"></i>
+									<p class="padding-left-30">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat.
+										<a href="#" class="time"> 12 Dec </a>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 padding-bottom-25">
+								<div class="contact-details">
+									<h4 class="margin-bottom-25">Recent Posts</h4>
+									<ul class="posts">
+										<li>
+											<a href="#"> Secrets to the Trade </a>
+										</li>
+										<li>
+											<a href="#"> The No Runningback Portfolio </a>
+										</li>
+										<li>
+											<a href="#"> Who to Hold </a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-3 padding-bottom-25">
+								<h4 class="margin-bottom-25">Follow Us</h4>
+								<div class="social-icons">
+									<ul>
+										<li class="social-twitter tooltips" data-original-title="Twitter" data-placement="bottom">
+											<a target="_blank" href="https://twitter.com/fan_folio"> Twitter </a>
+										</li>
+										<li class="social-instagram tooltips" data-original-title="Facebook" data-placement="bottom">
+											<a target="_blank" href="https://www.instagram.com/fanfolio/" data-original-title="Facebook"> Instagram </a>
+										</li>
+										<li class="social-facebook tooltips" data-original-title="Facebook" data-placement="bottom">
+											<a target="_blank" href="https://www.facebook.com/fanfolio/" data-original-title="Facebook"> Facebook </a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer-copyright">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8">
+									<p>
+										&copy; Copyright <span class="current-year"></span> by fanfolio. All Rights Reserved.
+									</p>
+								</div>
+								<div class="col-md-4">
+									<nav id="sub-menu">
+										<ul>
+											<li>
+												<a href="#"> FAQ's </a>
+											</li>
+											<li>
+												<a href="#"> Sitemap </a>
+											</li>
+											<li>
+												<a href="#"> Contact </a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+				<a id="scroll-top" href="#"><i class="fa fa-angle-up"></i></a>
+				<!-- end: FOOTER -->
+			</div>
+			<!-- end: APP CONTENT -->
+		</div>
+		<!-- start: MAIN JAVASCRIPTS -->
+		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="../bower_components/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+		<script src="../bower_components/sticky-kit/jquery.sticky-kit.min.js"></script>
+		<script src="../bower_components/jquery.appear.js/jquery.appear.js"></script>
+		<script src="../bower_components/slick.js/slick/slick.min.js"></script>
+		<script src="../bower_components/swiper/dist/js/swiper.jquery.min.js"></script>
+		<script src="../bower_components/jquery.stellar/jquery.stellar.min.js"></script>
+		<script src="../bower_components/countto/jquery.countTo.js"></script>
+		<script src="../bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+		<script src="assets/js/main.js"></script>
+		<!-- end: MAIN JAVASCRIPTS -->
+		<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<script src="assets/js/index.js"></script>
+		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<script>
+			jQuery(document).ready(function() {
+				Main.init();
+				Index.init();
+			});
+		</script>
+	</body>
+</html>
