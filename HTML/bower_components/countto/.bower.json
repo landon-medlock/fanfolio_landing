@@ -28,7 +28,7 @@
     "tag": "v1.0.0",
     "commit": "9d78616de2f28edaa48fc8bbd634424a0e2cbec5"
   },
-  "_source": "git://github.com/mhuggins/jquery-countTo.git",
+  "_source": "https://github.com/mhuggins/jquery-countTo.git",
   "_target": "~1.0.0",
   "_originalSource": "countto"
 }
