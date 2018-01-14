@@ -1,4 +1,6 @@
 node_modules/
+bower_components
+yarn.lock
 dist/
 tmp/
 .DS_Store
